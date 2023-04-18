@@ -39,6 +39,7 @@
 </template>
 
 <script setup>
+// TO-DO: get data from news-api.
 const posts = [
   {
     id: 1,
