@@ -2,8 +2,8 @@
   <div class="bg-white py-24 sm:py-32">
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
       <div class="mx-auto max-w-2xl lg:mx-0">
-        <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">From the blog</h2>
-        <p class="mt-2 text-lg leading-8 text-gray-600">Learn how to grow your business with our expert advice.</p>
+        <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">News Api</h2>
+        <p class="mt-2 text-lg leading-8 text-gray-600">Construa uma aplicação utilizando a linguagem e frameworks da vaga concorrida. Essa aplicação deve consumir a API https://newsapi.org/ e exibir a lista de artigos com informações de autores, título e descrição.</p>
       </div>
       <div class="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 border-t border-gray-200 pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3">
         <article v-for="post in posts" :key="post.id" class="flex max-w-xl flex-col items-start justify-between">
@@ -42,21 +42,21 @@
 const posts = [
   {
     id: 1,
-    title: 'Boost your conversion rate',
+    title: 'The ideal candidate',
     href: '#',
     description:
-      'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.',
-    date: 'Mar 16, 2020',
-    datetime: '2020-03-16',
-    category: { title: 'Marketing', href: '#' },
+      'Passionate about technology, games and digital products, i work as a software engineer since 2018. The continuous improvement and the search for constant growth builds up the human being in all areas of life.',
+    date: 'Apr 18, 2023',
+    datetime: '2023-04-18',
+    category: { title: 'Developer', href: '#' },
     author: {
-      name: 'Michael Foster',
-      role: 'Co-Founder / CTO',
-      href: '#',
+      name: 'Juan Junger',
+      role: 'Software Engineer',
+      href: 'https://www.linkedin.com/in/juan-junger/',
       imageUrl:
-        'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+        'https://media.licdn.com/dms/image/C4E03AQHoR1_dgr3bNQ/profile-displayphoto-shrink_400_400/0/1614990422798?e=1687392000&v=beta&t=adOjncjdVZ-mYmXwk7e3tHpq4HviNeXdehNwbRhQtXA',
     },
-  },
-  // More posts...
+  }
 ]
 </script>
+
